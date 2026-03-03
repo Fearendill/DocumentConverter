@@ -10,9 +10,10 @@ Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX
 
 - **Conversion par lot** : Traitez plusieurs fichiers simultanément
 - **Formats supportés** :
-  - ✅ TXT / TEXT (encodage auto-détecté)
+  - ✅ TXT / TEXT
   - ✅ DOCX / DOC (via LibreOffice)
   - ✅ ODT / ODS / ODP (via LibreOffice)
+  - ✅ EPUB 
 - **Interface intuitive** : Glisser-déposer et sélection multiple
 - **Progression en temps réel** : Barre de progression et journal détaillé
 - **Sans écrasement** : Numérotation automatique des fichiers existants
