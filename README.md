@@ -23,10 +23,6 @@ Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX
 
 ## 📋 Prérequis
 
-### Obligatoires
-- Qt 6.10+ avec modules : `core`, `gui`, `widgets`, `printsupport`
-- Compilateur C++17 compatible (GCC, Clang, MSVC, MinGW)
-
 ### Recommandés
 - **LibreOffice** 7.0+ (pour DOCX/ODT/ODS/ODP)
   - [Télécharger LibreOffice](https://www.libreoffice.org/download/download/)
