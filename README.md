@@ -1,0 +1,50 @@
+# DocumentConverter
+
+![Qt Version](https://img.shields.io/badge/Qt-6.10+-green.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
+
+Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX, ODT, ODS, ODP) en PDF. Développée avec Qt 6.10 et C++17.
+
+![Screenshot](docs/screenshot.png)
+
+## ✨ Fonctionnalités
+
+- **Conversion par lot** : Traitez plusieurs fichiers simultanément
+- **Formats supportés** :
+  - ✅ TXT / TEXT (encodage auto-détecté)
+  - ✅ DOCX / DOC (via LibreOffice)
+  - ✅ ODT / ODS / ODP (via LibreOffice)
+- **Interface intuitive** : Glisser-déposer et sélection multiple
+- **Progression en temps réel** : Barre de progression et journal détaillé
+- **Sans écrasement** : Numérotation automatique des fichiers existants
+- **Multi-plateforme** : Windows, Linux, macOS
+
+## 📋 Prérequis
+
+### Obligatoires
+- Qt 6.10+ avec modules : `core`, `gui`, `widgets`, `printsupport`
+- Compilateur C++17 compatible (GCC, Clang, MSVC, MinGW)
+
+### Recommandés
+- **LibreOffice** 7.0+ (pour DOCX/ODT/ODS/ODP)
+  - [Télécharger LibreOffice](https://www.libreoffice.org/download/download/)
+
+> 💡 **Note** : Sans LibreOffice, seule la conversion TXT → PDF fonctionne (via QPrinter natif Qt).
+
+## 🚀 Installation
+
+### Depuis les sources
+
+```bash
+# Cloner le repository
+git clone https://github.com/Fearendill/DocumentConverter.git
+cd DocumentConverter
+
+# Générer le Makefile
+qmake DocumentConverter.pro CONFIG+=release
+
+# Compiler
+make -j$(nproc)          # Linux/macOS
+mingw32-make -j4         # Windows MinGW
+nmake                    # Windows MSVC
