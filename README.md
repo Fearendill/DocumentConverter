@@ -2,7 +2,7 @@
 
 ![Qt Version](https://img.shields.io/badge/Qt-6.10+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
+![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20%20%7C%20-lightgrey.svg)
 
 Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX, ODT, ODS, ODP) en PDF. Développée avec Qt 6.10 et C++17.
 
