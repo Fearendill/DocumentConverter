@@ -4,6 +4,7 @@ release/baseconverter.o
 release/txtconverter.o
 release/docxconverter.o
 release/odtconverter.o
+release/epubconverter.o
 release/fileutils.o
 release/fileutils.o
 release/moc_mainwindow.o

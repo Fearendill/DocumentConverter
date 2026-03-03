@@ -4,6 +4,7 @@ debug/baseconverter.o
 debug/txtconverter.o
 debug/docxconverter.o
 debug/odtconverter.o
+debug/epubconverter.o
 debug/fileutils.o
 debug/fileutils.o
 debug/moc_mainwindow.o

@@ -12,7 +12,8 @@ enum class Format {
     ODT,
     RTF,
     HTML,
-    PDF
+    PDF,
+    EPUB
 };
 
 struct ConversionResult {

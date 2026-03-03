@@ -1,5 +1,6 @@
 QT       += core gui widgets printsupport
 
+
 greaterThan(QT_MAJOR_VERSION, 6): QT += widgets
 
 CONFIG += c++17
