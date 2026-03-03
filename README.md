@@ -3,7 +3,7 @@
 ![Qt Version](https://img.shields.io/badge/Qt-6.10+-green.svg)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Platform](https://img.shields.io/badge/platform-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg)
-![GitHub Downloads](https://img.shields.io/github/downloads/Fearendill/DocumentConverter/total?logo=github&color=blue&label=Downloads)
+![GitHub Downloads](https://img.shields.io/github/downloads/Fearendill/document-converter/total?logo=github&color=blue&label=Downloads)
 ![Visitors](https://visitor-badge.laobi.icu/badge?page_id=Fearendill.DocumentConverter)
 
 Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX, ODT, ODS, ODP) en PDF. Développée avec Qt 6.10 et C++17.
