@@ -34,17 +34,4 @@ Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX
 
 ## 🚀 Installation
 
-### Depuis les sources
-
-```bash
-# Cloner le repository
-git clone https://github.com/Fearendill/DocumentConverter.git
-cd DocumentConverter
-
-# Générer le Makefile
-qmake DocumentConverter.pro CONFIG+=release
-
-# Compiler
-make -j$(nproc)          # Linux/macOS
-mingw32-make -j4         # Windows MinGW
-nmake                    # Windows MSVC
+![Realese](https://github.com/Fearendill?tab=repositories)
