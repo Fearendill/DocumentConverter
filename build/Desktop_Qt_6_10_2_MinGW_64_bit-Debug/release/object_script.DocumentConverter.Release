@@ -1,0 +1,10 @@
+release/main.o
+release/mainwindow.o
+release/baseconverter.o
+release/txtconverter.o
+release/docxconverter.o
+release/odtconverter.o
+release/fileutils.o
+release/fileutils.o
+release/moc_mainwindow.o
+release/moc_baseconverter.o

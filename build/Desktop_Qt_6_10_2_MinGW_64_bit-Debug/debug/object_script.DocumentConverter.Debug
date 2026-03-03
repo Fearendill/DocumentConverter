@@ -1,0 +1,10 @@
+debug/main.o
+debug/mainwindow.o
+debug/baseconverter.o
+debug/txtconverter.o
+debug/docxconverter.o
+debug/odtconverter.o
+debug/fileutils.o
+debug/fileutils.o
+debug/moc_mainwindow.o
+debug/moc_baseconverter.o
