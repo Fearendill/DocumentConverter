@@ -32,4 +32,4 @@ Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX
 
 ## 🚀 Installation
 
-[![GitHub Release](https://img.shields.io/github/v/release/Fearendill/DocumentConverter?logo=github&color=brightgreen&label=Release)](https://github.com/Fearendill/DocumentConverter/releases)
+[![GitHub Release](https://img.shields.io/github/v/release/Fearendill/DocumentConverter?style=for-the-badge&logo=github&color=blue&label=Release)](https://github.com/Fearendill/DocumentConverter/releases)
