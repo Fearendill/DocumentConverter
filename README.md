@@ -6,8 +6,6 @@
 
 Une application desktop multi-plateforme pour convertir des documents (TXT, DOCX, ODT, ODS, ODP) en PDF. Développée avec Qt 6.10 et C++17.
 
-![Screenshot](docs/screenshot.png)
-
 ## ✨ Fonctionnalités
 
 - **Conversion par lot** : Traitez plusieurs fichiers simultanément
