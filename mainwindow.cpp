@@ -3,6 +3,7 @@
 #include "converter/txtconverter.h"
 #include "converter/docxconverter.h"
 #include "converter/odtconverter.h"
+#include "converter/epubconverter.h"
 #include <QFileDialog>
 #include <QMessageBox>
 #include <QProgressDialog>
@@ -43,6 +44,7 @@ void MainWindow::setupConverters()
     auto txtConv = std::make_shared<TxtConverter>(this);
     auto docxConv = std::make_shared<DocxConverter>(this);
     auto odtConv = std::make_shared<OdtConverter>(this);
+    auto epubConv = std::make_shared<EpubConverter>(this);
 
     // Enregistrement par extension
     m_converters["txt"] = txtConv;
@@ -52,6 +54,7 @@ void MainWindow::setupConverters()
     m_converters["odt"] = odtConv;
     m_converters["ods"] = odtConv;
     m_converters["odp"] = odtConv;
+    m_converters["epub"] = epubConv;
 }
 
 void MainWindow::onSelectInputFiles()
@@ -60,7 +63,8 @@ void MainWindow::onSelectInputFiles()
     filters << "Documents texte (*.txt *.text)"
             << "Documents Word (*.docx *.doc)"
             << "Documents LibreOffice (*.odt *.ods *.odp)"
-            << "Tous les fichiers supportés (*.txt *.text *.docx *.doc *.odt *.ods *.odp)"
+            << "E-books (*.epub)"
+            << "Tous les fichiers supportés (*.txt *.text *.docx *.doc *.odt *.ods *.odp *.epub)"
             << "Tous les fichiers (*)";
 
     QStringList files = QFileDialog::getOpenFileNames(

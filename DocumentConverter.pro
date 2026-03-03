@@ -17,6 +17,7 @@ SOURCES += \
     converter/txtconverter.cpp \
     converter/docxconverter.cpp \
     converter/odtconverter.cpp \
+    converter/epubconverter.cpp \
     utils/fileutils.cpp \
     utils/fileutils.cpp
 
@@ -28,6 +29,7 @@ HEADERS += \
     converter/txtconverter.h \
     converter/docxconverter.h \
     converter/odtconverter.h \
+    converter/epubconverter.h\
     utils/fileutils.h \
     utils/fileutils.h
 
